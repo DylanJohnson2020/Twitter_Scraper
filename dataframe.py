@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-# Loads scraped tweets files and formats the display so you can see all columns in console
+# Loads scraped tweets file and formats the display so you can see all columns in console
 dframe = pd.read_csv('scraped_tweets.csv')
 desired_width = 320
 pd.set_option('display.width', desired_width)
